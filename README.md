@@ -12,6 +12,24 @@
 
 Requires Python 3.0 or higher.
 
+## Run Tests
+
+Unit tests are written in using PyTest and to run the tests do the following:
+
+```
+Luckys-MacBook-Pro:StatCode lucky$ cd tests
+Luckys-MacBook-Pro:tests lucky$ pytest test_parameters.py
+==================================================== test session starts ====================================================
+platform darwin -- Python 3.6.1, pytest-3.0.7, py-1.4.33, pluggy-0.4.0
+rootdir: /Users/lucky/Desktop/GitHub/StatCode, inifile:
+collected 6 items 
+
+test_parameters.py ......
+
+================================================= 6 passed in 0.50 seconds ==================================================
+```
+
+
 ### Arch Linux
 
 You can install the [`statcode`](https://aur.archlinux.org/packages/statcode/) package from the AUR:
